@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{ 
+	width:100%;
+	height:100%;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+ 
+}
+
+body{
+  font:normal 100% Arial, Helvetica, sans-serif;
+  position: relative;
+}
+#left{
+  background: #5dc300 url(../img/bg-v.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  width: 50%;
+  height: 100vh;
+  color: #fff;
+  float: left;
+  padding: 50px;
+  text-align: right;
+}
+#right{
+  float: right;
+  background: #eeeeee;
+   width: 50%;
+  height: 100vh;
+text-align: center;
+}
+.btn{
+  background: #7e1397;
+  display: inline-block;
+  color: #fff;
+  text-align: none;
+  font-size: 1.3em;
+  border-radius: 10px;
+  padding: 10px 15px;
+  float: right;
+  margin: 30px 0;
+}
+.btn .whats{
+  width: 40px;
+  height: 40px;
+  float: left;
+  padding-right: 10px; 
+}
+.btn .text{
+  float: left;
+  font-size: 0.8em;
+
+}
+
+.clear{
+  clear: both;
+}
+#left h3{
+  margin: 20px 0;
+
+}
+#left h2 {
+  margin-bottom: 20px;
+}
+#left h3 a{
+  color: #fff;
+  text-decoration: none;
+}
+#left .sobre-vestro{
+  width: 80%;
+  float: right;
+}
+#left p{
+  margin-bottom: 0.75em;
+}
+
+#right{
+  padding: 50px;
+
+}
+#banner{
+  padding: 25px;
+}
+#banner .slick-prev:before,#banner .slick-next:before{
+  color:#6b6b6a;
+
+}
+
+@media (max-width: 768px) 
+{
+   #left{
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    height: auto;
+    min-height: 100vh;
+  }
+  #left .btn{
+    float: none;
+  }
+  #left .sobre-vestro{
+    text-align: center;
+    width: 100%;
+    font-size: 1.2em;
+  }
+  #right{
+  padding: 0px;
+     width: 100%;
+     height: auto;
+    }
+}

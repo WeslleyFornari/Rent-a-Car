@@ -1,0 +1,593 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+html, body {
+	height:100%;
+	}
+* html #tudo {
+	height:100%;
+	}
+body{
+	font-family: 'Open Sans', sans-serif;
+	background: #f0f5f7;
+}
+#tudo{
+	margin: 0 auto;
+	min-height:100%;
+	position:relative;
+	}
+@media screen and (min-width: 992px) {
+	.controle{
+		width:1170px;
+		margin: 0 auto; 
+	}
+}
+.clear{
+	clear: both;
+}
+header{
+	background: url('../img/topo.jpg');
+	background-repeat: repeat-x;
+	background-position: center top;
+	padding: 30px 0;
+}
+	.selo{
+		float: left;
+		width: 20%;
+	}
+	.logo{
+		float: left;
+		width: 60%;
+		text-align: center;
+	}
+	.contatos-topo{
+		float: right;
+		width: 20%;
+		text-align: right;
+	}
+.bg-nav{
+	background: #cfd5d8;
+	position: relative;
+}
+nav.menu{
+	float: left;
+	
+	width: 80%;
+
+}
+nav.menu ul{
+	list-style: none;
+}
+nav.menu li{
+	display: inline-block;
+}
+nav.menu li a{
+	text-decoration: none;
+	color: #5c606c;
+	font-size: 14px;
+	display:block;
+	padding: 10px 15px;
+}
+nav.menu li a:hover{
+	background: #5c606c;
+	color: #fff;
+	transition: 0.3s all linear;
+}
+.consulta{
+	float: right;
+}
+.consulta a{
+	text-decoration: none;
+	background: #5c606c;
+	color: #fff;
+	font-size: 14px;
+	display:block;
+	padding: 10px 15px;
+}
+.consulta a:hover{
+	background:#ff5b16;
+
+	transition: 0.3s all linear;
+}
+#conteudo{
+	padding-bottom: 100px;
+}
+#banner{
+	float: left;
+	width: 100%;
+}
+
+#servicos-home{
+	float: left;
+	width: 70%;
+}
+#servicos-home ul{
+	list-style: none;
+}
+#servicos-home .slick-slide{
+	
+	padding: 40px;
+	text-align: center;
+}
+#servicos-home a{
+	text-decoration: none;
+	color: #5c606c;
+	font-weight: 600;
+	position: relative;
+	display: block;
+	padding: 10px 20px;
+	margin-bottom: 15px;
+}
+#servicos-home a:hover .l-top,#servicos-home a:hover .l-bottom{
+	width: 100%;
+	transition: 0.3s all linear;
+}
+#servicos-home a:hover .l-left,#servicos-home a:hover .r-right{
+	height: 100%;
+	width: 2px;
+	transition: 0.5s all linear;
+}
+
+.l-top, .l-left, .r-top, .r-right,.l-bottom,.l-bottom-left,.r-bottom,.r-bottom-right{
+	background: #bfc3c8;
+	position: absolute;
+}
+.l-top{
+	left: 0;
+	top: 0;
+	width: 16px;
+	height: 2px;
+}
+.l-left{
+	left: 0;
+	top: 0;
+	width: 2px;
+	height: 16px;
+}
+.r-top{
+	right: 0;
+	top: 0;
+	width: 16px;
+	height: 2px;
+}
+.r-right{
+	right: 0;
+	top: 0;
+	width: 2px;
+	height: 16px;
+}
+
+
+.l-bottom{
+	left: 0;
+	bottom: 0;
+	width: 16px;
+	height: 2px;
+}
+.l-bottom-left{
+	left: 0;
+	bottom: 0;
+	width: 2px;
+	height: 16px;
+}
+.r-bottom{
+	right: 0;
+	bottom: 0;
+	width: 16px;
+	height: 2px;
+}
+.r-bottom-right{
+	right: 0;
+	bottom: 0;
+	width: 2px;
+	height: 16px;
+}
+#servicos-home h3{
+	
+}
+#servicos-home p{
+	display: inline-block;
+	line-height: 130%;
+}
+
+
+#social-home{
+	float: right;
+	text-align: center;
+	width: 30%;
+	margin-top: 100px;
+}
+#social-home ul{
+	margin-top: 15px;
+	list-style: none;
+	text-align: center;
+}
+#social-home ul li{
+	display: inline-block;
+	
+	
+}
+#social-home ul li a{
+	position: relative;
+	height: 43px;
+	overflow: hidden;
+	width: 44px;
+	display: block;
+}
+#social-home ul li a img{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#social-home ul li a:hover img{
+	top: -43px;
+
+}
+footer{
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+	padding: 15px;
+	font-size: 13px;
+}
+
+.bt-mobile{
+	color: #5c606c;
+    display: block;
+    float: left;
+    width: 34px;
+    height: 34px;
+    margin-left: 10px;
+    margin-top: 2px;
+    display: none;
+}
+
+#conteudo h1{
+	margin-bottom: 20px;
+	color: #606470;
+	margin-top: 10px;
+}
+.procedimentos{
+	list-style: none;
+	text-align: center;
+}
+.procedimentos li { 
+	display: inline-block;
+	position: relative;
+	margin: 15px;
+	width: 200px;
+	height: 200px;
+	background: #000;
+	
+}
+.procedimentos li a{
+	color:#fff;
+
+}
+.procedimentos li img {
+	opacity: 0.7;
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 0;
+	top: 0;
+}
+.procedimentos li h3{
+	position: absolute;
+    top: 50%;
+    height: 30%;
+    width: 100%;
+    margin-top: -15%;
+	text-align: center;
+	font-weight: 100;
+}
+
+.procedimentos li:hover{
+	background: #f60;
+	transition: 0.2s all linear;
+}
+
+
+
+@media screen and (max-width: 992px) {
+	 .selo, .contatos-topo,nav.menu{
+	 	display: none;
+	 }
+	 .logo{
+	 	width: 100%;
+	 	padding: 0 20%;
+	 }
+	 .bt-mobile{
+	 	display: block;
+	 }
+	 nav.menu{
+	 position: absolute;
+	 	width: 100%;
+		top: 39px;
+		left: 0;
+		z-index: 9999;
+		    box-shadow: 1px 3px 3px 0px rgba(102, 102, 102, 0.55);
+	 }
+	 nav.menu ul{
+	 
+		background: #cfd5d8;
+		width: 100%;
+	 }
+	nav.menu ul li{
+		display: block;
+	}
+	 nav.menu ul a{
+		background: #cfd5d8;
+	  	border-bottom: 1px solid #fff;
+
+	  }
+
+}
+@media screen and (max-width: 850px) {
+	h1{
+		padding: 15px; 
+	}
+ 	#servicos-home,#social-home{
+	 	width: 100%;
+	}
+	#formContato{
+		margin-top: 20px;
+	}
+}
+label{
+	font-weight: 600;
+	color: #606470;
+}
+.input{
+	border: 1px solid #cfd5d8;
+	width: 100%;
+	padding: 10px;
+	font-size: 1.5em;
+	color: #606470;
+	font-weight: 100;
+}
+.bt-enviar{
+	background: #ff5c16;
+	color: #fff;
+	width: 100%;
+	padding: 10px;
+	border: 0;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+
+/* Alignment styles for images, videos and iframes in editable regions */
+
+/* Center (default) */
+[data-editable] iframe,
+[data-editable] image,
+[data-editable] [data-ce-tag=img],
+[data-editable] img,
+[data-editable] video {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+/* Left align */
+[data-editable] .align-left {
+    clear: initial;
+    float: left;
+    margin-right: 0.5em;
+}
+
+/* Right align */
+[data-editable].align-right {
+    clear: initial;
+    float: right;
+    margin-left: 0.5em;
+}
+
+/* Alignment styles for text in editable regions */
+[data-editable] .text-center {
+    text-align: center;
+}
+
+[data-editable] .text-left {
+    text-align: left;
+}
+
+[data-editable] .text-right {
+    text-align: right;
+}
+.form-control{
+	width: 100%;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+textarea{
+	min-height: 100px;
+}
+#box-formulario{
+	background: #ededed;
+	padding: 0 ;
+
+}
+#box-formulario h3{
+	margin-top: 15px;
+	color: #606470;
+	margin-bottom: 10px;
+}
+#fale-conosco{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#btEnviar{
+	background: #ff5c16;
+	width: 100%;
+	padding: 6px 7px;
+	color: #fff;
+	border: 0;
+	
+}
+#btEnviar#btEnviar:hover{
+	background: ##f3520c;
+}
+
+
+
+.jc-slider2 {
+    overflow: hidden;
+    width: 100%;
+}
+.jc-slider2 li{
+	list-style: none;
+}
+.jc-slider2 * { 
+    box-sizing:border-box;
+}
+
+
+#banner a{
+	margin-top: 15px;
+}
+#banner a.estilo2{
+	display: inline-block;
+	padding: 5px 10px;
+	color: #fff !important;
+	text-decoration: none;
+	background: #3c8dbc;
+}
+#banner a.estilo3{
+	display: inline-block;
+	padding: 5px 10px;
+	color: #fff !important;
+	text-decoration: none;
+	background: #f39c12;
+}
+#banner a.estilo4{
+	display: inline-block;
+	padding: 5px 10px;
+	color: #fff !important;
+	text-decoration: none;
+	background: #00c0ef;
+}
+#banner a.estilo5{
+	display: inline-block;
+	padding: 5px 10px;
+	color: #fff !important;
+	text-decoration: none;
+	background: #dd4b39;
+}
+#banner a.estilo6{
+	display: inline-block;
+	padding: 5px 10px;
+	color: #fff !important;
+	text-decoration: none;
+	background: #00a65a;
+}
+
+
+/* Arrows */
+.slick-prev-banner,
+.slick-next-banner
+{
+    font-size: 0;
+    line-height: 0;
+
+    position: absolute;
+    z-index: 9999;
+    top: 50%;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+
+    cursor: pointer;
+
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.slick-prev-banner:hover,
+.slick-prev-banner:focus,
+.slick-next-banner:hover,
+.slick-next-banner:focus
+{
+    color: transparent;
+    outline: none;
+    background: transparent;
+}
+.slick-prev-banner:hover:before,
+.slick-prev-banner:focus:before,
+.slick-next-banner:hover:before,
+.slick-next-banner:focus:before
+{
+    opacity: 1;
+}
+.slick-prev-banner.slick-disabled:before,
+.slick-next-banner.slick-disabled:before
+{
+    opacity: .25;
+}
+
+.slick-prev-banner:before,
+.slick-next-banner:before
+{
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+
+    opacity: .75;
+    color: #b1b1b1;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev-banner
+{
+    left: 50px;
+}
+[dir='rtl'] .slick-prev-banner
+{
+    right: 50px;
+    left: auto;
+}
+.slick-prev-banner:before
+{
+    content: '←';
+}
+[dir='rtl'] .slick-prev-banner:before
+{
+    content: '→';
+}
+
+.slick-next-banner
+{
+    right: 50px;
+}
+[dir='rtl'] .slick-next-banner
+{
+    right: auto;
+    left: 25px;
+}
+.slick-next-banner:before
+{
+    content: '→';
+}
+[dir='rtl'] .slick-next-banner:before
+{
+    content: '←';
+}

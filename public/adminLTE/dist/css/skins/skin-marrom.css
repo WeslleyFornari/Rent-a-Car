@@ -1,0 +1,158 @@
+/*
+ * Skin: Black
+ * -----------
+ */
+/* skin-marrom navbar */
+.skin-marrom .main-header {
+  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
+}
+.skin-marrom .main-header .navbar-toggle {
+  color: #333;
+}
+.skin-marrom .main-header .navbar-brand {
+  color: #333;
+  
+}
+.skin-marrom .main-header .navbar {
+  background-color: #3d3626;
+}
+.skin-marrom .main-header .navbar .nav > li > a {
+  color: #caae6c;
+}
+.skin-marrom .main-header .navbar .nav > li > a:hover,
+.skin-marrom .main-header .navbar .nav > li > a:active,
+.skin-marrom .main-header .navbar .nav > li > a:focus,
+.skin-marrom .main-header .navbar .nav .open > a,
+.skin-marrom .main-header .navbar .nav .open > a:hover,
+.skin-marrom .main-header .navbar .nav .open > a:focus,
+.skin-marrom .main-header .navbar .nav > .active > a {
+  background: #3d3626;
+  color: #caae6c;
+}
+.skin-marrom .main-header .navbar .sidebar-toggle {
+  color: #333333;
+}
+.skin-marrom .main-header .navbar .sidebar-toggle:hover {
+  color: #3d3626;
+  background: #3d3626;
+}
+.skin-marrom .main-header .navbar > .sidebar-toggle {
+  color: #333;
+  border-right: 1px solid #eee;
+}
+.skin-marrom .main-header .navbar .navbar-nav > li > a {
+  border-right: 1px solid #eee;
+}
+.skin-marrom .main-header .navbar .navbar-custom-menu .navbar-nav > li > a,
+.skin-marrom .main-header .navbar .navbar-right > li > a {
+  border-left: 1px solid #caae6c;
+  border-right-width: 0;
+}
+.skin-marrom .main-header > .logo {
+  background-color: #3d3626;
+  color: #333333;
+  border-bottom: 0 solid transparent;
+ 
+}
+.skin-marrom .main-header > .logo:hover {
+  background-color: #3d3626;
+}
+@media (max-width: 767px) {
+  .skin-marrom .main-header > .logo {
+    background-color: #222222;
+    color: #ffffff;
+    border-bottom: 0 solid transparent;
+    border-right: none;
+  }
+  .skin-marrom .main-header > .logo:hover {
+    background-color: #1f1f1f;
+  }
+}
+.skin-marrom .main-header li.user-header {
+  background-color: #222;
+}
+.skin-marrom .content-header {
+  background: transparent;
+  box-shadow: none;
+}
+.skin-marrom .wrapper,
+.skin-marrom .main-sidebar,
+.skin-marrom .left-side {
+  background-color: #3d3626;
+}
+.skin-marrom .user-panel > .info,
+.skin-marrom .user-panel > .info > a {
+  color: #fff;
+}
+.skin-marrom .sidebar-menu > li.header {
+  color: #caae6c;
+  background: #231e14;
+}
+.skin-marrom .sidebar-menu > li > a {
+  border-left: 3px solid transparent;
+}
+.skin-marrom .sidebar-menu > li:hover > a,
+.skin-marrom .sidebar-menu > li.active > a {
+  color: #caae6c;
+  background: #231e14;
+ 
+}
+.skin-marrom .sidebar-menu > li > .treeview-menu {
+  margin: 0 1px;
+  background: #2c3b41;
+}
+.skin-marrom .sidebar a {
+  color: #caae6c;
+}
+.skin-marrom .sidebar a:hover {
+  text-decoration: none;
+}
+.skin-marrom .treeview-menu > li > a {
+  color: #8aa4af;
+}
+.skin-marrom .treeview-menu > li.active > a,
+.skin-marrom .treeview-menu > li > a:hover {
+  color: #ffffff;
+}
+.skin-marrom .sidebar-form {
+  border-radius: 3px;
+  border: 1px solid #374850;
+  margin: 10px 10px;
+}
+.skin-marrom .sidebar-form input[type="text"],
+.skin-marrom .sidebar-form .btn {
+  box-shadow: none;
+  background-color: #374850;
+  border: 1px solid transparent;
+  height: 35px;
+}
+.skin-marrom .sidebar-form input[type="text"] {
+  color: #666;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 2px;
+}
+.skin-marrom .sidebar-form input[type="text"]:focus,
+.skin-marrom .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+  background-color: #fff;
+  color: #666;
+}
+.skin-marrom .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+  border-left-color: #fff;
+}
+.skin-marrom .sidebar-form .btn {
+  color: #999;
+  border-top-left-radius: 0;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 0;
+}
+.skin-marrom .pace .pace-progress {
+  background: #222;
+}
+.skin-marrom .pace .pace-activity {
+  border-top-color: #222;
+  border-left-color: #222;
+}

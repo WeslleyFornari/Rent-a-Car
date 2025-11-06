@@ -1,0 +1,36 @@
+#box-formulario{
+	display:table;
+	float: left;
+	width: 100%;
+	form{
+		padding: $lg 0;
+		background: $cinza-claro;
+		clear: both;
+		.form-control{
+			box-shadow: 1px 1px 1px rgba(102, 102, 102, 0.47)
+		}
+	}
+	#contatosForm{
+		background:$cinza-escuro;
+		color:#fff;
+		display: table-cell;
+		height: 100%;
+		min-height: 330px;
+		padding: $lg;
+		.separador{
+			margin: $lg 0;
+		}
+		a{
+			color: #fff;
+		}
+
+	}
+	#resultado{
+		display:none;
+		.alert{
+			@include mq(tablet,min){
+				min-height:330px;
+			}
+		}
+	}
+}
